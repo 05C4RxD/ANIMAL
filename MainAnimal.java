@@ -8,7 +8,7 @@ class MainAnimal{ //CREAMOS NUESTRA CLASE MinAnimal
         int edad;
         //PREGUNTAMOS AL USUARIO ¿QUÉ MASCOTA TIENE?
         System.out.println("¿QUÉ MASCOTA TIENES?");
-        ani = scan.nextLine(); //GUARDAMOS EL DATO EN LA VAREABLE "AnI"
+        ani = scan.nextLine(); //GUARDAMOS EL DATO EN LA VAREABLE "ani"
 
         //PEDIMOS Y GUARDAMOS DATOS REQUERIDOS
         System.out.print("INGRESA EL NOMBRE DE TU MASCOTA: ");
