@@ -2,13 +2,13 @@ import java.util.Scanner; //IMPORTAMOS LA LIBRERIA SCANNER PARA LEER EL DATOS IN
 class MainAnimal{ //CREAMOS NUESTRA CLASE MinAnimal
     //CREAMOS EL METODO MAIN PARA EJECUTAR EL PROGRAMA SIN ERRORES
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); //CREAMOS EL OBJETO SCANNER PARA LEER LAS ENTRADAS DEL USUARIO
         //DECLARAMOS LAS VAREABLES
         String nombre, alimento, raza, ani;
         int edad;
         //PREGUNTAMOS AL USUARIO ¿QUÉ MASCOTA TIENE?
         System.out.println("¿QUÉ MASCOTA TIENES?");
-        ani = scan.nextLine(); //GUARDAMOS EL DATO EN LA VAREABLE "AMI"
+        ani = scan.nextLine(); //GUARDAMOS EL DATO EN LA VAREABLE "AnI"
 
         //PEDIMOS Y GUARDAMOS DATOS REQUERIDOS
         System.out.print("INGRESA EL NOMBRE DE TU MASCOTA: ");
